@@ -255,12 +255,15 @@ export default class DragNDrop extends Component {
   render() {
     return (
 			<div className="container-fluid  h-100">
+				<div className="row border-bottom">
+					<h1>Drag And Drop React Demo</h1>
+				</div>
 				<div className="row windowSize">
 					<div className="col-sm-2 border-right border-3" id="leftPanel"
             onDragOver={ (e)=>this.onDragOver(e) }
 						onDrop={ (e)=>this.onDropLeft(e) }
 					>
-						To preview images from desktop drag them here. (You can import multiple images.)
+						To preview images, drag them from desktop here. (You can import multiple images.)
 		  			<div id="gallery">{
 		  				this.state.leftImages.map((obj, i) => {
 		  					return <span key={ 'span' + i }><img alt="dragNDropImage" src={ obj.src } style={{ height: 150 }} 
