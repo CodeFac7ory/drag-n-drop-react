@@ -1,5 +1,5 @@
 Online demo: https://drag-drop-react.herokuapp.com/
-(might have slow start because Heroku free tier keeps apps dormant if they are not continiously used)
+(might have slow start because Heroku free tier keeps apps dormant if they are not continuously used)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
