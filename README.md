@@ -1,4 +1,6 @@
-Demonstrating drag and drop events to upload pictures to the web page, and after that they can be dragged across left and right panel. They are fit into 3 columns and 3 rows in the right panel. Height/width ratio should be preserved and user can choose which part of the image to crop.
+# drag-n-drop-react
+
+Demonstrating pure JS data transfer, drag and drop events to upload pictures to the web page, and after that they can be dragged across left and right panel. They are fit into 3 columns and 3 rows in the right panel. Height/width ratio in the right should be preserved and user can choose which part of the image to crop by double clicking and scrolling the image.
 
 Online demo: https://drag-drop-react.herokuapp.com/
 (might have slow start because Heroku free tier keeps apps dormant if they are not continuously used)
